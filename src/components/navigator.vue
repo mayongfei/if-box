@@ -24,6 +24,48 @@
             </li>
             <li id="products">
               <router-link  class="nav-link" to="/products">Products</router-link>
+              <div class="sub-com nav-dropdown">
+                <div id="pro-panel">
+                  <div class="left-nav">
+                    <ul>
+                      <li><a class="nav-silder" href="/shop/#shop-wire-free" data-link="Wire-Free Security Cameras">Wire-Free Security Cameras</a></li>
+                      <li><a class="nav-silder" href="/shop/#shop-indoor" data-link="Indoor Smart Home Cameras">Indoor Smart Home Camera</a></li>
+                      <li><a class="nav-silder" href="/shop/#shop-poe" data-link="WiFi/PoE Cameras &amp; NVRs">WiFi/PoE Cameras &amp; NVRs</a></li>
+                      <li><a class="nav-silder" href="/shop/#shop-systems" data-link="Security Camera Systems">Security Camera Systems</a></li>
+                      <li><a class="nav-silder active" href="/shop/#accessories" data-link="Accessories-slider">Accessories</a></li>
+                      <li><a class="nav-comparison" href="/comparison/">Product Comparison<span class="ui-icon icon-icon_arrow-right"></span></a></li>
+                    </ul>
+                  </div>
+                  <div class="right-content">
+                    <ul id="cameras" class="dn">
+                      <li>
+                        <a href="/product/argus-2/">
+                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2018/01/reolink-argus2-280.png">
+                          <h3 class="product-name" title="Reolink Argus® 2">Reolink Argus® 2</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/product/reolink-go/">
+                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2018/03/reolink-go-340.png">
+                          <h3 class="product-name" title="Reolink Go">Reolink Go</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/product/argus/">
+                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2017/11/argus.png">
+                          <h3 class="product-name" title="Reolink Argus®">Reolink Argus®</h3>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/product/keen/">
+                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2017/11/keen.png">
+                          <h3 class="product-name" title="Reolink Keen™">Reolink Keen™</h3>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
             <li id="video">
               <router-link class="nav-link" to="/aboutUs">Video</router-link>
@@ -89,6 +131,70 @@ export default {
   li#support, li#company {
     position: relative;
   }
+  li#products .sub-com {
+    width: 100%;
+    left: 0px;
+    top: 120px;
+  }
+  #pro-panel {
+    margin: auto;
+  }
+  .left-nav {
+    float: left;
+    width: 28%;
+    background-color: #F7F8F9;
+    padding-bottom: 20px;
+  }
+  .left-nav li {
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    text-align: right;
+  }
+  .left-nav li a {
+    width: 250px;
+    text-align: left;
+  }
+  .left-nav li:hover {
+    background-color: #F2F3F4;
+  }
+  .left-nav li:hover a {
+    color: #00ade5;
+  }
+  .nav-dropdown a {
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 25px;
+    width: 100%;
+  }
+  .right-content {
+    margin-left: 28%;
+  }
+  #cameras {
+    width: 85%;
+  }
+  .right-content ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+  }
+  .right-content img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    margin: 0;
+  }
+  .right-content li h3 {
+    line-height: 1.2;
+    color: #777;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+  }
+
   li#company .sub-com {
     width: 120px;
     left: -18px;
@@ -100,7 +206,7 @@ export default {
   .sub-com {
     display: none;
     position: absolute;
-    top: 78px;
+    top: 80px;
     background-color: #fff;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
     z-index: 1;
