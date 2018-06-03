@@ -9,10 +9,10 @@
             </a>
           </div>
           <div class="col-6">
-            <a href="http://www.nzndcam.net/" id="logo"><img src="../public/images/logo.jpg" alt="Logo"/></a>
+            <a href="http://www.ifboxs.net/" id="logo"><img src="../public/images/logo.jpg" alt="Logo"/></a>
           </div>
           <div class="col-3 div-shop">
-            <a href="http://www.nzndcam.net/" id="shop"><img src="../public/images/cart-mo.png" alt="Menu"/></a>
+            <a href="http://www.ifboxs.net/" id="shop"><img src="../public/images/cart-mo.png" alt="Menu"/></a>
           </div>
         </div>
       </div>
@@ -28,37 +28,34 @@
                 <div id="pro-panel">
                   <div class="left-nav">
                     <ul>
-                      <li><a class="nav-silder" href="/shop/#shop-wire-free" data-link="Wire-Free Security Cameras">Wire-Free Security Cameras</a></li>
-                      <li><a class="nav-silder" href="/shop/#shop-indoor" data-link="Indoor Smart Home Cameras">Indoor Smart Home Camera</a></li>
-                      <li><a class="nav-silder" href="/shop/#shop-poe" data-link="WiFi/PoE Cameras &amp; NVRs">WiFi/PoE Cameras &amp; NVRs</a></li>
-                      <li><a class="nav-silder" href="/shop/#shop-systems" data-link="Security Camera Systems">Security Camera Systems</a></li>
-                      <li><a class="nav-silder active" href="/shop/#accessories" data-link="Accessories-slider">Accessories</a></li>
-                      <li><a class="nav-comparison" href="/comparison/">Product Comparison<span class="ui-icon icon-icon_arrow-right"></span></a></li>
+                      <li v-for="item in items">
+                        <a class="nav-silder" href="/shop/#shop-wire-free" data-link="Wire-Free Security Cameras">{{item}}</a>
+                      </li>
                     </ul>
                   </div>
                   <div class="right-content">
                     <ul id="cameras" class="dn">
                       <li>
                         <a href="/product/argus-2/">
-                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2018/01/reolink-argus2-280.png">
+                          <img src="../public/images/products/02.2712354.jpg">
                           <h3 class="product-name" title="Reolink Argus® 2">Reolink Argus® 2</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/reolink-go/">
-                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2018/03/reolink-go-340.png">
+                          <img src="../public/images/products/02.2712355.jpg">
                           <h3 class="product-name" title="Reolink Go">Reolink Go</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/argus/">
-                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2017/11/argus.png">
+                          <img src="../public/images/products/02.2712356.jpg">
                           <h3 class="product-name" title="Reolink Argus®">Reolink Argus®</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/keen/">
-                          <img src="https://1a3d93a9964ff3229e4a1eed-keeamo9ketico5n4.netdna-ssl.com/wp-content/assets/2017/11/keen.png">
+                          <img src="../public/images/products/02.2712357.jpg">
                           <h3 class="product-name" title="Reolink Keen™">Reolink Keen™</h3>
                         </a>
                       </li>
@@ -109,11 +106,13 @@
 </template>
 
 <script>
+import {category} from '../productData'
+
 export default {
   name: 'navigator',
   data () {
     return {
-
+      items: category
     }
   },
   methods: {

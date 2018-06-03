@@ -8,7 +8,7 @@
           <strong class="work-time">Work time:</strong>
           <ul class="work-info">
             <li class="contact-info">Monday – Friday UTC+8 08am to 06pm</li>
-            <li class="contact-info">Contact: The NZNDCam Support Team</li>
+            <li class="contact-info">Contact: The Ifboxs Support Team</li>
             <li class="contact-info">Address: ROOM G, 8th FLOOR, KING PALACE PLAZA, 55 KING YIP STREET, KWUN TONG, KOWLOON, HONGKONG</li>
             <li class="contact-info">TEL: +86-18917001578</li>
           </ul>
@@ -17,7 +17,7 @@
           <p class="methods-des">For technical issues, account assistance, feature suggestions, other problems while using our products or software, and some related info like payment failure or delivery details when placing your order, you can contact us via 2 methods:</p>
           <ul class="method-wrap">
             <li class="method"><span id="online-form">Online Form</span></li>
-            <li class="method"><span>Email at nzndcamera@gmail.com</span></li>
+            <li class="method"><span>Email at ifboxs@gmail.com</span></li>
           </ul>
         </div>
 

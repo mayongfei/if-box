@@ -4,8 +4,8 @@
       <div class="mxw">
         <div class="mod-home-content">
           <div class="mod-home-left">
-            <h1>Welcome to NZNDCam</h1>
-            <p class="software">To get started please follow the Quick Start Guide to setup the NZNDCam mobile app, Client software and hardware.</p>
+            <h1>Welcome to Ifboxs</h1>
+            <p class="software">To get started please follow the Quick Start Guide to setup the Ifboxs mobile app, Client software and hardware.</p>
             <p><a class="ui-button" href="#download" id="get-start">Get Started<i class="fa-icon-angle-double-down"></i></a></p>
           </div>
         </div>
@@ -14,20 +14,20 @@
     <div id="download">
       <p class="software black">Support:</p>
       <p>For technical support, you may send E-mail to</p>
-      <a href="support@nzndcam.com">support@nzndcam.com</a><br/><br/>
+      <a href="support@ifboxs.com">support@ifboxs.com</a><br/><br/>
 
       <p class="software black">Manual and software:</p>
       <p>You may download the Software and Manual from</p>
-      <a href="https://nzndcam.comsoftware-and-manua">https://nzndcam.comsoftware-and-manua.</a><br/>
+      <a href="https://ifboxs.comsoftware-and-manua">https://ifboxs.comsoftware-and-manua.</a><br/>
       <p>Software (Mobile App, WindowsClient, MacClient)</p>
       <p>Manual (QSG, User Manual)</p><br/>
 
       <p class="software black">Firmware:</p>
       <p>You may download the firmware from</p>
-      <a href="https://nzndcam.comfmwr">https://nzndcam.comfmwr</a><br/><br/><br/>
+      <a href="https://ifboxs.comfmwr">https://ifboxs.comfmwr</a><br/><br/><br/>
 
-      <p class="software black">NZNDCam Digital Technology Co,Ltd</p>
-      <a href="https://nzndcam.com">https://nzndcam.com</a><br/><br/>
+      <p class="software black">fboxs Digital Technology Co,Ltd</p>
+      <a href="https://ifboxs.com">https://ifboxs.com</a><br/><br/>
     </div>
   </div>
 </template>
