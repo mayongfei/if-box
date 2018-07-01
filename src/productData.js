@@ -7,26 +7,26 @@ const category = [
 const items = [
   {
     id: 1,
-    name: '02.2712204',
-    src: '02.2712204.jpg',
+    name: '2712204',
+    src: '2712204.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 2,
-    name: '02.2712316',
-    src: '02.2712316.jpg',
+    name: '2712316',
+    src: '2712316.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 3,
-    name: '02.2712570',
-    src: '02.2712570.jpg',
+    name: '2712570',
+    src: '2712570.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 4,
-    name: '02.2712602',
-    src: '02.2712602.jpg',
+    name: '2712602',
+    src: '2712602.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {

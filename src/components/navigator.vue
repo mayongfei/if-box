@@ -37,25 +37,25 @@
                     <ul id="cameras" class="dn">
                       <li>
                         <a href="/product/argus-2/">
-                          <img src="../public/images/products/02.2712354.jpg">
+                          <img src="../public/images/products/2712204.jpg">
                           <h3 class="product-name" title="Reolink Argus® 2">Reolink Argus® 2</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/reolink-go/">
-                          <img src="../public/images/products/02.2712355.jpg">
+                          <img src="../public/images/products/2712316.jpg">
                           <h3 class="product-name" title="Reolink Go">Reolink Go</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/argus/">
-                          <img src="../public/images/products/02.2712356.jpg">
+                          <img src="../public/images/products/2712570.jpg">
                           <h3 class="product-name" title="Reolink Argus®">Reolink Argus®</h3>
                         </a>
                       </li>
                       <li>
                         <a href="/product/keen/">
-                          <img src="../public/images/products/02.2712357.jpg">
+                          <img src="../public/images/products/2712602.jpg">
                           <h3 class="product-name" title="Reolink Keen™">Reolink Keen™</h3>
                         </a>
                       </li>
