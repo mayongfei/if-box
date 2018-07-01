@@ -7,50 +7,80 @@ const category = [
 const items = [
   {
     id: 1,
-    name: '02.2712354',
-    src: '02.2712354.jpg',
+    name: '02.2712204',
+    src: '02.2712204.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 2,
-    name: '02.2712355',
-    src: '02.2712355.jpg',
+    name: '02.2712316',
+    src: '02.2712316.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 3,
-    name: '02.2712356',
-    src: '02.2712356.jpg',
+    name: '02.2712570',
+    src: '02.2712570.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 4,
-    name: '02.2712357',
-    src: '02.2712357.jpg',
+    name: '02.2712602',
+    src: '02.2712602.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 5,
-    name: '02.2712359',
-    src: '02.2712359.jpg',
+    name: '654',
+    src: '654.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 6,
-    name: '02.2712360',
-    src: '02.2712360.jpg',
+    name: 'bluenui',
+    src: 'bluenui.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 7,
-    name: '02.2712361',
-    src: '02.2712361.jpg',
+    name: 'new fox',
+    src: 'new fox.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   },
   {
     id: 8,
-    name: '02.2712362',
-    src: '02.2712362.jpg',
+    name: 'new2',
+    src: 'new2.jpg',
+    description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
+  },
+  {
+    id: 9,
+    name: 'pink_uni',
+    src: 'pink_uni.jpg',
+    description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
+  },
+  {
+    id: 10,
+    name: 'shulan',
+    src: 'shulan.jpg',
+    description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
+  },
+  {
+    id: 11,
+    name: 'zijing',
+    src: 'zijing.jpg',
+    description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
+  },
+  {
+    id: 12,
+    name: 'zijing2',
+    src: 'zijing2.jpg',
+    description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
+  },
+  {
+    id: 13,
+    name: 'zijing3',
+    src: 'zijing3.jpg',
     description: 'Stay Safe with 1440p PoE Security Video System! 3TB HDD 16-Channel NVR for 24/7 Recording.'
   }
 ];
