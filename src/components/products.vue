@@ -7,9 +7,17 @@
       <div v-if="items.length > 0">
         <div class="row-responsive" v-for="item in items">
           <div class="responsive" v-for="product in item">
+            <!--
             <a href="#"><img v-bind:src="'./src/public/images/products/' + product.src" width="250px"></a><br/>
-            <a class="p-title" href="#">{{product.name}}</a>
-            <p class="p-des">{{product.description}}</p>
+            -->
+            <router-link v-bind:to="'/detail/'+product.name.replace(/[ ]+/g,'')">
+              <img v-bind:src="'/static/images/products/' + product.src" width="250px">
+            </router-link>
+            <br>
+            <router-link v-bind:to="'/detail/'+product.name.replace(/[ ]+/g,'')">
+              {{product.name}}
+            </router-link>
+            <p class="p-des">{{product.title}}</p>
           </div>
         </div>
       </div>

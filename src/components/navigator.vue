@@ -28,36 +28,17 @@
                 <div id="pro-panel">
                   <div class="left-nav">
                     <ul>
-                      <li v-for="item in items">
-                        <a class="nav-silder" href="/shop/#shop-wire-free" data-link="Wire-Free Security Cameras">{{item}}</a>
+                      <li v-for="(item,i) in items" v-on:mouseover="resetCategory($event, item.name)" v-bind:class="{active: i==0 }">
+                        <a class="nav-silder" data-link="Wire-Free Security Cameras">{{item.name}}</a>
                       </li>
                     </ul>
                   </div>
                   <div class="right-content">
-                    <ul id="cameras" class="dn">
-                      <li>
-                        <a href="/product/argus-2/">
-                          <img src="../public/images/products/2712204.jpg">
-                          <h3 class="product-name" title="Reolink Argus® 2">Reolink Argus® 2</h3>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/product/reolink-go/">
-                          <img src="../public/images/products/2712316.jpg">
-                          <h3 class="product-name" title="Reolink Go">Reolink Go</h3>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/product/argus/">
-                          <img src="../public/images/products/2712570.jpg">
-                          <h3 class="product-name" title="Reolink Argus®">Reolink Argus®</h3>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/product/keen/">
-                          <img src="../public/images/products/2712602.jpg">
-                          <h3 class="product-name" title="Reolink Keen™">Reolink Keen™</h3>
-                        </a>
+                    <ul v-for="index in Math.ceil(subItems.length/4)" class="cameras dn">
+                      <li v-for="item in subItems.slice(4*(index-1), 4*index)">
+                        <router-link v-bind:to="'/detail/'+selectedCategory">
+                          <img v-on:click="hideSubCom()" v-bind:src="'/static/images/products/'+selectedCategory+'/'+item.src">
+                        </router-link>
                       </li>
                     </ul>
                   </div>
@@ -107,15 +88,35 @@
 
 <script>
 import {category} from '../productData'
+import $ from 'jquery'
 
 export default {
   name: 'navigator',
   data () {
     return {
-      items: category
+      items: category,
+      selectedCategory: 'BlueNarwhal',
+      subItems: category[0].children
     }
   },
   methods: {
+    resetCategory: function (e, name) {
+      if(e.target.nodeName === 'LI' && e.target.parentNode.nodeName === 'UL') {
+        $(e.target).addClass('active').siblings().removeClass('active')
+      }
+      this.selectedCategory = name.replace(/[ ]+/g,'')
+      //alert(this.selectedCategory)
+      for(var i=0;i<this.items.length;i++) {
+        if(this.items[i].name === name) {
+          this.subItems = this.items[i].children
+        }
+      }
+      //alert(this.subItems.length)
+    },
+    hideSubCom: function () {
+      $(".sub-com").hide()
+      window.location.reload()
+    },
     showMobileNav: function(e) {
       e.preventDefault()
       document.getElementById('mob-nav').style.display = "block"
@@ -160,6 +161,12 @@ export default {
   .left-nav li:hover a {
     color: #00ade5;
   }
+  .active {
+    background-color: #F2F3F4;
+  }
+  .active a {
+    color: #00ade5 !important;
+  }
   .nav-dropdown a {
     color: #555;
     font-size: 16px;
@@ -167,13 +174,14 @@ export default {
     text-decoration: none;
     display: inline-block;
     line-height: 25px;
-    width: 100%;
+    width: 80%;
   }
   .right-content {
     margin-left: 28%;
   }
-  #cameras {
+  .cameras {
     width: 85%;
+    padding-top: 20px;
   }
   .right-content ul li {
     float: left;
@@ -181,8 +189,7 @@ export default {
     text-align: center;
   }
   .right-content img {
-    width: 120px;
-    height: 120px;
+    width: 100%;
     max-width: 100%;
     margin: 0;
   }
