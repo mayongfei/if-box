@@ -9,12 +9,12 @@
           <a onclick="ga('send', 'event', 'click homepage-recommend-RLC-423', 'Click', 'homepage-recommend-RLC-423-en');" href="/product/rlc-423/">
             <img class="product-image show-image" src="../public/images/show-product-1.jpg">
             <img class="product-image hover-image" src="../public/images/product1.jpg">
-            <h3>RLC-423</h3>
+            <h3>Walrus Kigurumi</h3>
             <dl>
-              <dd>• 5MP/4MP Super HD</dd>
-              <dd>• 360° endless pan &amp; 90° tilt</dd>
-              <dd>• 4X optical zoom</dd>
-              <dd>• Power over Ethernet</dd>
+              <dd>• The Walrus Kigurumi is just EPIC</dd>
+              <dd>• 100% Polar Fleece!Soft and Comfortable</dd>
+              <dd>• Shoes not included</dd>
+              <dd>• Warm and fluffy</dd>
             </dl>
           </a>
           <a onclick="ga('send', 'event', 'click homepage-recommend-RLC-423', 'Click', 'homepage-recommend-RLC-423-en');" href="/product/rlc-423/" class="sk-button empty-button">
@@ -27,12 +27,12 @@
           <a onclick="ga('send', 'event', 'click homepage-recommend-RLK8-410B4', 'Click', 'homepage-recommend-RLK8-410B4-en');" href="/product/rlk8-410b4/">
             <img class="product-image show-image" src="../public/images/show-product-2.jpg">
             <img class="product-image hover-image" src="../public/images/product2.jpg">
-            <h3>RLK8-410B4</h3>
+            <h3>Blue Narwhal</h3>
             <dl>
-              <dd>• 4 Super HD cameras (RLC-410)</dd>
-              <dd>• Pre-installed 2TB HDD in NVR</dd>
-              <dd>• 24/7 reliable video recording</dd>
-              <dd>• 4MP, PoE and DIY</dd>
+              <dd>• Narwhal Onesie is a swoon-worthy animal onesie</dd>
+              <dd>• Starry-eyed cute face </dd>
+              <dd>• body with white belly</dd>
+              <dd>• spots on back,Little whale-tail,Pockets</dd>
             </dl>
           </a>
           <a onclick="ga('send', 'event', 'click homepage-recommend-RLK8-410B4', 'Click', 'homepage-recommend-RLK8-410B4-en');" href="/product/rlk8-410b4/" class="sk-button empty-button">
@@ -45,12 +45,12 @@
           <a onclick="ga('send', 'event', 'click homepage-recommend-C1 Pro', 'Click', 'homepage-recommend-C1 Pro-en');" href="/product/c1-pro/">
             <img class="product-image show-image" src="../public/images/show-product-3.jpg">
             <img class="product-image hover-image" src="../public/images/product3.jpg">
-            <h3>C1 Pro</h3>
+            <h3>Grey Sloth</h3>
             <dl>
-              <dd>• 4 megapixels (2560*1440) Super HD</dd>
-              <dd>• 355° pan &amp; 105° tilt</dd>
-              <dd>• 2.4/5 GHz dual-band WiFi</dd>
-              <dd>• Two-way audio</dd>
+              <dd>• The soft fleece material</dd>
+              <dd>• the easy-to-wear button opening</dd>
+              <dd>• the oh-so adorable three finger sleeve</dd>
+              <dd>• those cute droopy eyes</dd>
             </dl>
           </a>
           <a onclick="ga('send', 'event', 'click homepage-recommend-C1 Pro', 'Click', 'homepage-recommend-C1 Pro-en');" href="/product/c1-pro/" class="sk-button empty-button">

@@ -52,7 +52,7 @@
               <router-link class="nav-link" to="/software">Support</router-link>
               <div class="sub-com">
                 <div class="sub-com-title">
-                  <router-link class="nav-link" to="/software">Software & Manual</router-link>
+                  <router-link class="nav-link" to="/software">Manual</router-link>
                 </div>
               </div>
             </li>

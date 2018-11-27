@@ -11,7 +11,7 @@
           <li><a class="botlink" href="/contactUs">Video</a></li>|
           <li><a class="botlink" href="/contactUs">Contact Us</a></li>
         </ul>
-        <p class="desc">Copyright 2018 © Shotime LLC Co., Ltd.</p>
+        <p class="desc">Copyright 2018 © Zifu E-business(Shanghai) Co.,Ltd.</p>
       </div>
       <div class="r_footer">
         <img title="PayPal" src="../public/images/footer/paypal.png?sv=1524575313">
