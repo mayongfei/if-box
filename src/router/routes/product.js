@@ -24,7 +24,7 @@ router.get('/', function (req, res) {
     vaultData.slack = slackEnv;
     vaultData.mattermost = mattermostEnv;
     vaultData.msteams = msteamsEnv;
-    vaultData.login = loginEnv;
+    vaultData.login = loginEnv
     console.log(vaultData);
     console.log("successfully get the secret");
 

@@ -77,7 +77,7 @@
               <a class="nav-icon" href=""><img src="../public/images/user.png"/></a>
             </li>
             <li id="cart">
-              <a class="nav-icon" href=""><img src="../public/images/cart.png"/></a>
+              <router-link class="nav-link nav-icon" to="/cart"><img src="../public/images/cart.png"/></router-link>
             </li>
           </ul>
         </div>
